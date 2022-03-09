@@ -19,6 +19,7 @@ class toDoRealmViewController: UIViewController {
         }
         indexRow=0
         tableView.reloadData()
+        
     }
     var str = ""
     @IBOutlet weak var tableView: UITableView!
